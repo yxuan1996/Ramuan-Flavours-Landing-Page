@@ -5,9 +5,6 @@ Landing Page for Ramuan Flavours, a foodservice and food manufacturing company
 python -m http.server 8000
 ```
 
-## To Do
-- Carousel not working, need to fix. Replace with daisyUI or material tailwind. Somehow not working for daisyUI. 
-
 ## Development Notes
 
 ### Hard Reload
@@ -29,3 +26,11 @@ In our CSS file, we define the offset in terms of pixels. Then we attache the sc
 ```HTML
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="60">
 ```
+
+### Carousel
+We are using Tailwind Elements for the Carousel. For some reason the carousel in bootstrap and daisyUI are not working. 
+
+https://tailwind-elements.com/docs/standard/components/carousel/
+
+### Footer
+We are using DaisyUI for the Footer
