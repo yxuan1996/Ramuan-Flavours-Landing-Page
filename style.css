@@ -1,0 +1,44 @@
+  /* Custom styles for the specified color scheme */
+  :root {
+    --color-blueberry: #6B7A8F;
+    --color-apricot: #F7882F;
+    --color-citrus: #F7C331;
+    --color-apple-core: #DCC7AA;
+  }
+  .navbar {
+    background-color: var(--color-apricot);
+  }
+
+  /* For Sticky Navbar offset */
+  html 
+  { scroll-padding-top: 60px; }
+
+  .btn-primary {
+    background-color: var(--color-apricot);
+    border-color: var(--color-apricot);
+    color:black;
+  }
+  .hero {
+    background-color: var(--color-citrus);
+  }
+  .description {
+    background-color: var(--color-blueberry);
+    color: white;
+  }
+  .cards {
+    background-color: var(--color-apple-core);
+  }
+  .careers {
+    background-color: var(--color-citrus);
+    color: white;
+  }
+  .contact-form {
+    background-color: var(--color-blueberry);
+    color: black;
+  }
+  .footer {
+    background-color: var(--color-blueberry);
+  }
+  .footer a {
+    color: var(--color-citrus);
+  }
