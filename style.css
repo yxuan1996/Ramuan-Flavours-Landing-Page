@@ -13,6 +13,20 @@
   html 
   { scroll-padding-top: 60px; }
 
+  /* Responsive Logo */
+  .logo-main {
+    display:none;
+  }
+  @media (min-width: 768px) {
+    .logo-mobile {
+      display: none;
+    }
+    .logo-main {
+      display: inline;
+    }
+  }
+
+
   .btn-primary {
     background-color: var(--color-apricot);
     border-color: var(--color-apricot);
