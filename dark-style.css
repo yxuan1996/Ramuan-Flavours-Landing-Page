@@ -1,0 +1,66 @@
+  /* Custom styles for the specified color scheme */
+  :root {
+    --color-blueberry: #6B7A8F;
+    --color-apricot: #F7882F;
+    --color-citrus: #F7C331;
+    --color-apple-core: #DCC7AA;
+
+    /* Dark Color Styles */
+    --color-white: #ffffff;
+    --color-yellow:  #feda6a;
+    --color-silver: #d4d4dc;
+    --color-dark-grey: #393f4d;
+    --color-dark-slate: #1d1e22; 
+  }
+  .navbar {
+    background-color: var(--color-dark-slate);
+  }
+
+  /* For Sticky Navbar offset */
+  html 
+  { scroll-padding-top: 60px; }
+
+  /* Responsive Logo */
+  .logo-main {
+    display:none;
+  }
+  @media (min-width: 768px) {
+    .logo-mobile {
+      display: none;
+    }
+    .logo-main {
+      display: inline;
+    }
+  }
+
+
+  .btn-primary {
+    background-color: var(--color-citrus);
+    border-color: var(--color-citrus);
+    color:black;
+  }
+  .hero {
+    background-color: var(--color-dark-slate);
+  }
+  .description {
+    background-color: var(--color-dark-slate);
+    color: white;
+  }
+  .cards {
+    background-color: var(--color-dark-slate);
+  }
+  .careers {
+    background-color: var(--color-dark-slate);
+    color: white;
+  }
+  .contact-form {
+    background-color: var(--color-dark-slate);
+    color: white;
+  }
+  .footer {
+    background-color: var(--color-dark-slate);
+    color: white;
+  }
+  .footer a {
+    color: var(--color-citrus);
+  }
