@@ -46,16 +46,16 @@
       <div class="collapse navbar-collapse justify-content-lg-end justify-content-center mr-3" id="navbarNav">
         <ul class="navbar-nav d-flex">
           <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link text-white" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#services">Services</a>
+            <a class="nav-link text-white" href="#services">Services</a>
           </li>
           <!-- <li class="nav-item">
             <a class="nav-link" href="#careers">Careers</a>
           </li> -->
           <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact Us</a>
+            <a class="nav-link text-white" href="#contact">Contact Us</a>
           </li>     
         </ul>
       </div>
@@ -308,32 +308,35 @@
     </div>
   </section> -->
 
-  <!-- Remove Contact Form Section -->
-  <!-- <section class="contact-form py-5 bg-gray-100" id="contact">
+  <!-- Contact Form Section -->
+  <section class="contact-form py-5" id="contact">
     <div class="container">
       <div class="row justify-content-center align-items-center px-5 px-md-2">
         <div class="col-lg-6 col">
           <h2 class="text-3xl font-bold mb-4">Contact Us</h2>
-          <form>
+          <form id="form">
             <div class="mb-3">
-              <input type="text" class="form-control" placeholder="Your Name">
+              <input type="text" class="form-control" id='YourName' name='YourName' placeholder="Your Name">
             </div>
             <div class="mb-3">
-              <input type="email" class="form-control" placeholder="Your Email">
+              <input type="email" class="form-control" id='YourEmail' name='YourEmail' placeholder="Your Email">
             </div>
             <div class="mb-3">
-              <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+              <input type="text" class="form-control" id='YourPhone' name='YourPhone' placeholder="Your Phone Number">
             </div>
-            <button type="submit" class="btn btn-primary">Send Message</button>
+            <div class="mb-3">
+              <textarea class="form-control" rows="4" id='YourMessage' name='YourMessage' placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" id='SubmitForm' class="btn btn-primary">Send Message</button>
           </form>
         </div>
       </div>
     </div>
-  </section> -->
+  </section>
 
-  <div class="justify-content-center align-items-center mx-auto contact-form" id="contact"></div>
+  <!-- <div class="justify-content-center align-items-center mx-auto contact-form" id="contact"></div>
   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeeuEKp5M2R9eRBWk9y16kvrQkHE9yAwkAt5sQQxDYhR_qyzg/viewform?embedded=true" width="100%" height="950px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-  </div>
+  </div> -->
 
   <!-- Footer Section -->
   <footer class="footer p-10 text-neutral-content">
@@ -380,6 +383,6 @@
   <!-- Include Bootstrap and Tailwind CSS scripts -->
   <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-  <!-- <script src="./script.js"></script> -->
+  <script src="./app.js"></script>
 </body>
 </html>
