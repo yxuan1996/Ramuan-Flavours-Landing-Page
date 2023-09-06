@@ -44,4 +44,3 @@ We are using DaisyUI for the Footer
 
 ### Connect Custom HTML Form to Google Form
 https://johnpels.hashnode.dev/how-to-connect-your-custom-html-form-to-google-form-response-api
-
