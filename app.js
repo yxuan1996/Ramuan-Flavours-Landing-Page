@@ -6,7 +6,7 @@ const message = document.querySelector("#YourMessage");
 const button = document.querySelector("#SubmitForm");
 const form = document.querySelector("#form");
 const GOOGLE_FORM_URL =
-  "https://docs.google.com/forms/u/0/d/e/1FAIpQLSeeuEKp5M2R9eRBWk9y16kvrQkHE9yAwkAt5sQQxDYhR_qyzg/formResponse"; // your google form response URL e.g https://docs.google.com/forms/u/0/d/e/1FAIpQLSdfVQ2ycW2AROnbmCmVw8I8Uc7Z40BZtjleJ_-IQjgtznQ_4cJl/formResponse
+  "https://docs.google.com/forms/d/e/1FAIpQLSdaVCsAxup4YgzycB0jcHc8BtsRdj0_8ubA9UFdx_a4koTPMQ/formResponse"; // your google form response URL e.g https://docs.google.com/forms/u/0/d/e/1FAIpQLSdfVQ2ycW2AROnbmCmVw8I8Uc7Z40BZtjleJ_-IQjgtznQ_4cJl/formResponse
 
 const handleSubmit = async (event) => {
   event.preventDefault();
@@ -15,10 +15,10 @@ const handleSubmit = async (event) => {
   const phoneValue = phone.value;
   const messageValue = message.value;
   const formData = {
-    "entry.2005620554": fullNameValue, // entry.253486596 is the name attribute for the full name field on our google form
-    "entry.1045781291": emailValue, // entry.1124906099 is the name attribute for the email address field on our google form
-    "entry.1166974658": phoneValue, // entry.1163114650 is the name attribute for the notes address field on our google form
-    "entry.839337160": messageValue, // entry.1163114650 is the name attribute for the notes address field on our google form
+    "entry.1014224063": fullNameValue, // entry.253486596 is the name attribute for the full name field on our google form
+    "entry.592059813": emailValue, // entry.1124906099 is the name attribute for the email address field on our google form
+    "entry.516219041": phoneValue, // entry.1163114650 is the name attribute for the notes address field on our google form
+    "entry.233743879": messageValue, // entry.1163114650 is the name attribute for the notes address field on our google form
   };
   const appendedFormData = newFormData({ ...formData });
 
